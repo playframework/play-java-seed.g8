@@ -9,6 +9,7 @@ import play.test.WithApplication;
 
 import static org.junit.Assert.assertEquals;
 import static play.mvc.Http.Status.OK;
+import static play.test.Helpers.fakeRequest;
 import static play.test.Helpers.GET;
 import static play.test.Helpers.route;
 
@@ -21,9 +22,7 @@ public class HomeControllerTest extends WithApplication {
 
     @Test
     public void testIndex() {
-        Http.RequestBuilder request = new Http.RequestBuilder()
-                .method(GET)
-                .uri("/");
+        Http.RequestBuilder request = fakeRequest(GET, "/");
 
         Result result = route(app, request);
         assertEquals(OK, result.status());
