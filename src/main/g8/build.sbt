@@ -7,4 +7,4 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
 scalaVersion := "$scala_version$"
 
-libraryDependencies += filters
+libraryDependencies += guice
