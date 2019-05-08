@@ -1,5 +1,5 @@
 // The Play plugin
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.7.0")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.7.2")
 
 // Defines scaffolding (found under .g8 folder)
 // http://www.foundweekends.org/giter8/scaffolding.html
