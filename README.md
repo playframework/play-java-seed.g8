@@ -1,6 +1,6 @@
 # play-java-seed.g8
 
-[![Build Status](https://travis-ci.org/playframework/play-java-seed.g8.svg?branch=2.6.x)](https://travis-ci.org/playframework/play-java-seed.g8)
+[![Build Status](https://travis-ci.com/playframework/play-java-seed.g8.svg?branch=2.8.x)](https://travis-ci.com/playframework/play-java-seed.g8)
 
 Giter8 template for generating a Play project in Java.
 
