@@ -18,8 +18,7 @@ jobs:
     uses: playframework/.github/.github/workflows/cmd.yml@v2
     with:
       java: 11, 8
-      scala: 2.13.8
-      cmd: sbt ++$MATRIX_SCALA test g8Test
+      cmd: sbt test g8Test
 
   finish:
     name: Finish
